@@ -1,0 +1,96 @@
+/* Definindo variáveis */
+:root{
+  --vermelho: #E50914;
+  --preto: #141414;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;   /* limitando tamanho da caixa */
+}
+body{
+  background: var(--preto);
+  font-family: 'Arial', Times, serif;
+  color: white;
+}
+
+header .container{
+  display: flex;  /* para uso do flex box */
+  flex-direction: row;  /* uso recomendado */
+  align-items: center;  /* alinhando ao centro */
+  justify-content: space-between; /* espaços entre logo (NETFLIX) e menus */
+}
+.container{
+  margin-left: 20px;
+}
+header .logo{
+  margin-left: 5px;
+  color: var(--vermelho);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+}
+header nav a{
+  text-decoration: none; /* Retirando sublinhado */
+  color: #AAA;
+  margin-right: 10px;
+}
+header nav a:hover{
+  color: #fff;
+}
+
+/* FILME PRINCIPAL */
+.filme-principal{
+  font-size: 16px;
+    /* aplicando tonalidade escura com linear-gradient */
+  background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)200%), url('../img/capa-witcher1.jpg');
+
+  height: 400px;
+  background-size: cover; /* ajustando tamanho da imagem na área */
+
+  display: flex; /* deixar elementos em linha */
+  flex-direction: column; /* preenchendo a caixa total */
+  justify-content: center; /* centralizando todo conteúdo */
+  align-items: flex-start;  /* começar da esquerda */
+  
+}
+.filme-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+
+}
+.filme-principal .titulo{
+  margin-top: 1%;
+  font-size: 40px;
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+.botao{
+  background-color: rgba(0,0,0,.50); /* sombreamento */
+  border:none;
+  color: white;
+
+  padding: 15px 30px;
+  margin-right: 15px;
+  font-size: 12px;
+
+  cursor: pointer;
+  transition: .3s ease all; /* mudança da cor  */
+}
+.botao:hover{
+  background-color: white;
+  color: black;
+}
+.botao i{
+  margin-right: 8px;
+}
+.filme-principal .container{
+  width: 70%;
+}
+.box-filme{
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+.carrosel-filmes{
+  margin-top: 10px;
+}

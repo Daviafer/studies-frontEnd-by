@@ -1,0 +1,47 @@
+--------------------------------------------
+ATRIBUIÇÃO
+=   |   x = y     |   x = y 
++=  |   x += y    |   x = x + y 
+*=  |   x *= y    |   x = x * y 
+/=  |   x /= y    |   x = x / y 
+%=  |   x %= y    |   x = x % y 
+
+
+--------------------------------------------
+OPERADORES ARITIMÉTICOS
++   adição
+-   subtração
+*   multiplicação
+**  exponencial
+/   divisão
+%   módulo
+++  incrementar
+--  decrementar
+
+--------------------------------------------
+OPERADORES de COMPARAÇÃO
+==      igual a
+===     mesmo valor e mesmo tipo
+!=      diferente
+!==     valor e tipos diferentes
+>       maior que
+<       menor que
+>=      maior ou igual
+<=      menor ou igual
+
+--------------------------------------------
+OPERADORES de LÓGICA
+&&      "e" lógico
+||      "ou"
+!       "não"
+
+--------------------------------------------
+CONDICIONAL TERNÁRIO
+
+  condicao ? expressao1 : expressao2
+
+if(condicao){
+  expressao1
+} else{
+  expressao2;
+}

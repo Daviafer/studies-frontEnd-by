@@ -1,0 +1,49 @@
+--------- Promises ---------
+
+- Objeto de processamento Assíncrono
+- Inicialmente valor desconhecido, pode ser resolvida ou cancelada
+
+Async / await
+
+- Funções assíncronas precisam dessas duas palavras chave
+- Para resolver uma Promise
+- await - para parar o código e resolver a Promise
+- Funções assíncronas também retornam Promise
+
+
+API - Application Programming Interface
+
+- Entre Front-End e Back-End
+- Acesso por meio de URLs
+- JSON - JavaScript Object Notation
+
+FETCH
+
+- consumindo APIs
+- precisa usar await
+- POST, GET, PUT, DELETE ...
+- retorna uma Promise
+
+EX1:
+fetch(url, options)
+  .then(response => response.json())
+  .then(json => console.log(json))
+
+EX2:
+fetch('https://endereco-api.com/',{
+  method: 'GET',
+  cache: 'no-cache',
+})
+  .then(response => response.json())
+  .then(json => console.log(json))
+
+EX3:
+fetch('https://endereco-api.com/',{
+  method: 'POST',
+  cache: 'no-cache',
+  body: JSON.stringify(data)
+})
+  .then(response => response.json())
+  .then(json => console.log(json)
+
+

@@ -1,0 +1,19 @@
+---------- Paradgmas ----------
+- Imperativo  = Foca em como resolver os problemas. 
+- Declarativo = No que, em que você irá fazer.
+
+-Pilares
+  > Herança = Filho herda propriedades dos métodos do pai.
+  
+  > Polimorfismos = Objetos podem herdar a mesma classe pai, mas se comportam diferente quando invocamos seus métodos. Ex: na classe Aninal cada animal tem uma forma de se comunicar.
+  
+  > Encapsulamento = Cada classe tem propriedades e métodos independentes do restantde do código. propriedades e métodos apenas a ela.
+  
+  > Abstração = Isolar um estado coisas complexas. EX: carro faz parte de veículo.
+
+---------- OOJS ----------
+- Protótipos = todos objetos herdam propriedades e métodos de um prototype, ou seja, seguem conceito de Herança.
+- Classes    = Syntatic sugar: sintaxe feita para facilitar a escrita. Todas as classes são objetos e a herança se dá por Protótipos.
+
+
+

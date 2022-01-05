@@ -1,0 +1,48 @@
+---------- DOM -----------
+- Document Object Model
+- DOM HTML é um padrão de como acessar e modificar os elementos HTML de uma página
+- São as tags no HTML
+
+EX:
+<div id="textoPrincipal"> Teste </div>
+<li id="lista"> Teste </li>
+<div class="classeDois"> Teste </div>
+
+document.getElementByID('textoPrincipal'); 
+// retorna somente um ID
+
+document.getElementByTagName('lista'); 
+// retorna somente um ID
+
+document.getElementByClassName('classeDois'); 
+// retorna somente um ID
+
+- Selector ALL 
+
+<div id="primeiraClasse segundaClasse"> 
+  <li class="opcao"> # </li>
+  <li class="opcao"> # </li>
+</div>
+document.querySelectorAll('primeiraClasse .segundaClasse')
+document.querySelectorAll('li .opcao')
+
+document.createElement(element)   - Cria um novo elemento HTML
+document.removeChild(element)     - Remove um elemento
+document.appendChild(element)     - Adiciona um elemento
+document.replaceChild(new, old)   - Substitui um Elemento
+
+
+- Classes 
+Element.classList
+
+meuElemento.classList.add("novo-estilo");
+meuElemento.classList.remove("classe");
+meuElemento.classList.toggle("dark-mode");
+
+-CSS
+document.getElementByTagName("p").style.color = "blue";
+
+---------- BOM -----------
+- Browser Object Model
+- Tudo o que está dentro do window: document; history; location; screen; navigator
+

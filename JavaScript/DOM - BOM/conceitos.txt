@@ -42,6 +42,24 @@ meuElemento.classList.toggle("dark-mode");
 -CSS
 document.getElementByTagName("p").style.color = "blue";
 
+- Eventos
+Qualquer tipo de ação que seja realizado na página.
+mouseover, mouseout
+click, dbclick(click duplo)
+change, load
+
+Event listener
+const botao = document.getElementByID("meuBotao");
+botao.addEventListener("click", outraFuncao);
+
+HTML - diretamente no HTML
+<h1 onclick="mudaTexto(this)">Clique aqui!</h1>
+<script>
+  function mudaTexto(id){
+    id.innerHTML = "Mudei!";
+  }
+</script>
+
 ---------- BOM -----------
 - Browser Object Model
 - Tudo o que está dentro do window: document; history; location; screen; navigator
